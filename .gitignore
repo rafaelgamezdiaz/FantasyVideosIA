@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build artifacts and executables
+build/
+dist/
+
+# Large model weights (> 100 MB / Gigabytes) and download buffers
+models/*.onnx
+models/*.pth
+models/*.pt
+models/*.gguf
+models/*.bin
+models/*.tmp
+!models/builtin/
+!models/builtin/*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE configurations and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+*.log
